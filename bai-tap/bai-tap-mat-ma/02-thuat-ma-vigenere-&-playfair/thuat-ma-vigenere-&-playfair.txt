@@ -1,0 +1,22 @@
+01. Cho k = TRUONG, N = 26, giải mã văn bản, dùng thuật mã Vigenere với C = MIOCAMWRCVBIFF
+
+02. Cho k = KHOA, N = 26, giải mã văn bản, dùng thuật mã Vigenere với C= WRIHNUMIOQGARVH
+
+03. Cho k = SECRET, N = 26, mã hóa văn bản, dùng thuật mã Vigenere với P = KHOACONGNGHETHONGTIN
+
+04. Cho k = MORNACHY, N = 26, mã hóa văn bản, dùng thuật mã Vigenere với P = ANTOANBAOMATTHONGTIN 
+
+05. Cho k = KEY, giải mã văn bản dùng thuật mã Playfair với C = ZO BA  TC ZI SN
+
+06. Cho k = KEY, giải mã văn bản dùng thuật mã Playfair với C = GSZTGSDBZOIOHSOTSNPOSA
+
+07.  Cho k = MORNACHY, P= KHOAHOCPHOTHONG. Hãy mã hóa bản rõ trên dùng thuật mã Playfair
+
+08. Cho k = MONARCHY, mã hóa văn bản P = SINHVIENDAIHOCMO
+
+09. Cho k = MONARCHY, giải mã văn bản C = HYROHYKIFAKISBYQ
+
+10. Cho k = KEY, giải mã văn bản C = TCGSGEWPALJVAYSA
+
+--------------------------------------------------------------------------------------
+

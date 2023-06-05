@@ -1,0 +1,116 @@
+01. Cho k = TRUONG, N = 26, giải mã văn bản, dùng thuật mã Vigenere với C = MIOCAMWRCVBIFF
+
+02. Cho k = KHOA, N = 26, giải mã văn bản, dùng thuật mã Vigenere với C= WRIHNUMIOQGARVH
+
+03. Cho k = SECRET, N = 26, mã hóa văn bản, dùng thuật mã Vigenere với P = KHOACONGNGHETHONGTIN
+
+04. Cho k = SECRET, N = 26, mã hóa văn bản, dùng thuật mã Vigenere với P = KHOACONGNGHESINHHOC
+
+05. Cho k = MORNACHY, N = 26, mã hóa văn bản, dùng thuật mã Vigenere với P = ANTOANBAOMATTHONGTIN
+
+06. Cho k = MORNACHY, N = 26, giải mã văn bản, dùng thuật mã Vigenere với C = FVRAHROMZVRGRCUE
+
+07. Cho k = MORNACHY, N = 26, giải mã văn bản, dùng thuật mã Vigenere với C = FWEGUEAFQHYNO
+
+08. Cho k = MORNACHY, N = 26, giải mã văn bản, dùng thuật mã Vigenere với C = HBVKPTLQERFGCQT
+
+09. Cho k = VIETNAM, N = 26, giải mã văn bản, dùng thuật mã Vigenere với C = YWRZZAGGIGABNS
+
+10. Cho k = VIETNAM, N = 26, giải mã văn bản, dùng thuật mã Vigenere với C = YWRZZAGGIGABNS
+
+11. Cho k = 24, N = 26, mã hóa văn bản, dùng thuật mã Caesar với P = ANTOANBAOMAT
+
+12. Cho k = 25, N = 26, giải mã văn bản, dùng thuật mã Caesar với C = LZMFLZXSHMG
+
+13. Cho k = 20, N = 26, giải mã văn bản, dùng thuật mã Caesar với C = KOUHNLCGUHA
+
+14. Cho k = 16, N = 26, giải mã văn bản, dùng thuật mã Caesar với C = SEIETKBYUKDQDWSQE
+
+15. Cho k = 25, N = 26, mã hóa văn bản, dùng thuật mã Caesar với P = TRUONGDAIHOCMO
+
+-----------------------------------------------------------------------------------------------
+
+// 10 câu đầu tiên xem trong thư mục "bai-lam"
+
+11. Cho k = 24, N = 26,mã hóa văn bản, dùng thuật mã Caesar:
+với P = ANTOANBAOMAT
+Ta có: C = (P + K ) mod 26
+A= (0+24) mod 26 =24 =>Y
+N=13+24) mod 26 = 11 => L
+T =(19+24) mod 26 = 17 => R
+O=(14+24) mod 26 =12 => M
+B= 1+24) mod 26 = 25 => Z
+M= 12+24) mod 26 =10 => K
+Vậy C=YLRMYLZYMKYR
+
+12. Cho k = 25, N = 26,giải mã văn bản, dùng thuật mã Caesar:
+với C = LZMFLZXSHMG
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+Ta có: P=(C-K) mod 26
+L=11-25) mod 26 = -14 =>M
+Z=(25-25 ) mod 26 =0 => A
+M= (12-25) mod 26 = -13 => N
+F= (5-25) mod 26 = -20 => G
+X = (23-25) mod 26 = -2 =>Y
+S= (18-25) mod 26 = -7 =>T
+H= (7-25) mod 26 = -18 => I
+G= (6-25) mod 26 = -19 =>H
+Vậy P= MANGMAYTINH
+
+13. Cho k = 20, N = 26,giải mã văn bản, dùng thuật mã Caesar:
+với C = KOUHNLCGUHA
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+Ta có: P=(C-K) mod 26
+K =(10-20) mod 26 = -10 => Q
+O =(14-20) mod 26 = -6 => U
+U =(20-20) mod 26 = 0=> A
+H =(7-20) mod 26= -13 =>N
+N =(13-20) mod 26 = -7 => T
+L =(11-20) mod 26 = -9 => R
+C =(2-20) mod 26 = -18 => I
+G =(6-20) mod 26 = -14 =>M
+U =(20-20) mod 26 = 0=> A
+H =(7-20) mod 26= -13 =>N
+A =(0-20) mod 26 = -20 => G
+Vậy P = QUANTRIMANG
+
+14. Cho k = 16, N = 26, giải mã văn bản, dùng thuật mã Caesar:
+với C = SEIETKBYUKDQDWSQE
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+Ta có: P=(C-K) mod 26
+S =(18-16) MOD 26 = 2 => C
+E =(4-16) MOD 26 = -12 => O
+I =(8-16) MOD 26 = -8 => S
+T =(19-16) MOD 26= 3 =>D
+K =(10-16) MOD 26 = -6 => U
+B =(1-16) MOD 26 = -15 => L
+Y = (24-16) MOD 26 = 8=>I
+U =(20-16) MOD 26 = 4 =>E
+D =(3-16) MOD 26 = -13 => N
+Q =(16-16) MOD 26 =0 => A
+W =(22-16) MOD 26 = 6 =>G
+S =(18-16) MOD 26 = 2 => C
+Vậy P = COSODULIEUNANGCAO
+
+15. Cho k = 25, N = 26,mã hóa văn bản, dùng thuật mã Caesar:
+với P = TRUONGDAIHOCMO
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+T =(19+25) mod 26 = 18 => S
+R =(17+25) mod 26 = 16 => Q
+U =(20+25) mod 26 = 19 => T
+O =(14+25) mod 26 = 13 => N
+N =(13+25) mod 26 = 12 => M
+G =(6+25) mod 26 = 5 => F
+D = (3+25) mod 26 = 2 => C
+A (0+25) mod 26 = 25 => Z
+I = (8+25) mod 26 = 7 => H
+H= (7+25) mod 26 = 6 => G
+O = (14+25) mod 26 = 13 => N
+C= (2+25) mod 26 = 1 => B
+M= (12+25) mod 26 =11 => L
+O = (14+25) mod 26 = 13 => N
+Vậy C= SQTNMFCZHGNBLN

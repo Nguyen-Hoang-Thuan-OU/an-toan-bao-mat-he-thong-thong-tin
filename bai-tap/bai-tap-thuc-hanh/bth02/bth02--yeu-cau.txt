@@ -1,0 +1,18 @@
+Yêu cầu: Sinh viên sử dụng các công cụ thu thập thông tin, làm báo cáo kết quả.
+
+* Tham khảo:
+
+01. Thu thập thông tin - Maltego
+https://youtu.be/Wba3LBqup6M
+https://youtu.be/ZWoYr7ybRpk
+
+02. Thu thập thông tin - Nmap
+https://youtu.be/4qAakrjwvsU (Range IP)
+https://youtu.be/4j5GEjzDs_I (-O)
+https://youtu.be/UDEIlQ9zpQI (IP)
+
+03. Thu thập thông tin - Nessus - Quét lỗ hổng bảo mật
+https://youtu.be/Rp7n5fUg15s
+
+04. Thu thập thông tin - Zenmap
+https://youtu.be/-V61yufnR1s

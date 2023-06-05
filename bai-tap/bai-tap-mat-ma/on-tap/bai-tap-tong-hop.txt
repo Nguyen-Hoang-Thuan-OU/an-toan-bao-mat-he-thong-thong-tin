@@ -1,0 +1,90 @@
+01. Người A, B chọn 2 số nguyên tố chung là g = 2, p = 997, a = 47, b = 43. Tính khóa công khai, khóa riêng của người gửi và người nhận A, B theo thuật mã Diffie-Hellman.
+
+02. Người A, B chọn 2 số nguyên tố chung là g = 2, p = 23, a = 19, b = 17. Tính khóa công khai, khóa riêng của người gửi và người nhận A, B theo thuật mã Diffie-Hellman.
+
+03. Theo thuật mã Diffie-Hellman. Giả sử người A chọn các thông số p = 33, q = 17, e = 13. Hỏi cặp khóa riêng của A là gì?
+
+04. Theo thuật mã Diffie-Hellman, giả sử Alice & Bob chọn 2 số nguyên tố chung là g = 3, p = 353, với a = 119, b = 113. Khóa riêng của Alice & Bob là?
+
+05. Cho bản mã y = 97, khóa riêng là p = 31, q = 29, e = 47. Khi giải mã bản mã y theo hệ RSA ta sẽ thu được bản rõ nào?
+
+06. Cho bản rõ x = 82, khóa công khai n = 221, e = 37. Khi mã hóa bản rõ x với khóa trên theo hệ mã RSA ta sẽ thu được bản mã gì?
+
+07. Cho bản mã “VPTLJXAMJWVFKUBLJ” khóa k là “CITY”. Khi giải mã bản mã trên với khóa k theo hệ mã Vigenere ta sẽ thu được bản rõ nào?
+
+08. Cho bản mã “YIVNQLTDF” khóa k là (23,29). Khi giải mã bản mã trên với khóa k theo hệ mã Affine ta sẽ thu được bản rõ?
+
+09. Cho bản mã “SKRQCFPDRN” khóa k là MONARCHY. Khi giải mã bản mã trên với khóa k theo hệ mã Playfair ta sẽ thu được bản rõ gì?
+
+10. Cho bản mã “KRPKANHKPKKNUNOM” khóa k. Khi giải mã với khóa k theo hệ mã Hill ta sẽ thu được bản rõ nào? Biết hàm mã y = kx?
+
+    6          5
+
+
+
+    3          4
+  
+
+11. Theo thuật mã Diffie-Hellman, giả sử A & B chọn 2 số nguyên tố chung là g = 2, p = 997, với a = 131, b = 151. Tính khóa công khai, khóa riêng của của A & B?
+
+12. Người A chọn các thông số p = 31, q = 37, e = 119. Theo thuật mã RSA hỏi cặp khóa riêng và khóa công khai của A là gì? Trong trường hợp nhận được bản mã là 1091, các em hãy tìm bản rõ?
+
+13. Cho bản mã “CLGSKOOUOUISOCSHBERU” khóa k là "CITY". Khi giải mã bản mã trên với khóa k theo hệ mã Playfair ta sẽ thu được bản rõ gì?
+
+14. Cho bản mã “FJTQCQJCZHOIQM” khóa k. Khi giải mã với khóa k theo hệ mã Hill ta sẽ thu được bản rõ nào? Biết hàm mã y = xk
+
+     19         3
+
+
+
+     5         24
+
+
+15. Cho bản mã “ZFUCTHFBTSXRWZ” khóa k. Khi giải mã với khóa k theo hệ mã Hill ta sẽ thu được bản rõ nào? Biết hàm mã y = kx
+
+     19         3
+
+
+
+     5         24
+
+
+16. Cho bản mã “FTYICIGNSLFTHGFY” khóa k. Khi giải mã với khóa k theo hệ mã Hill ta sẽ thu được bản rõ nào? Biết hàm mã y = xk?
+
+    6          5
+
+
+
+    3          4
+
+
+17. Cho k = 25, N = 26, giải mã văn bản, dùng thuật mã Caesar với C = BZBDLBNFZMFNMSZO
+
+18. Cho k = 23, N = 26, giải mã văn bản, dùng thuật mã Caesar với C = QEFAXQHBQNRX
+
+19. Cho k = 24, N = 26, giải mã văn bản, dùng thuật mã Caesar với C = AFSAAYACKRFYLFAMLE
+
+20. Cho k = 19, N = 26, giải mã văn bản, dùng thuật mã Caesar với C = ZHHWURXTGWLXXRHN
+
+---------------------------------------------------------------------------------------------
+
+01. (2,997,135,320), (47,370),(43,370)
+02. (2,23,3,18), (19,16),(17,16)
+03. (197,561)
+04. (119,57), (113,57)
+05. 188
+06. 199
+07. THANHPHOHOCHIMINH
+08. THUONGMAI
+09. TINTHETHAO
+10. VIETNAMNETDOTCOM
+11. (2,997,398,15), (131,406), (151,406)
+12. 429
+13. THANHPHOHOAPHUONGDO
+14. DAONGOCPHUQUOC
+15. NEUKHONGONTAP
+16. THISEKHONGTHEDAT
+17. CACEMCOGANGONTAP
+18. THIDATKETQUA
+19. CHUCCACEMTHANHCONG
+20. GOODBYEANDSEEYOU

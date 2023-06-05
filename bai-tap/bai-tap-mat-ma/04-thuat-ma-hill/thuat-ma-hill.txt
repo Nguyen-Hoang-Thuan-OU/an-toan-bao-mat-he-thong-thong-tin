@@ -1,0 +1,90 @@
+01. Cho bản mã “KS” khóa k là ma trận cấp 2 sau. Hãy giải mã bản mã với khóa k theo hệ mã Hill tìm bản rõ. Biết hàm mã hóa y = kx
+
+3         4
+
+
+
+1         3
+
+
+02. Cho bản rõ “THUA” khóa k. Mã hóa bản rõ với khóa k theo hệ mã Hill tìm bản mã? Biết hàm mã y = kx
+
+9          7
+
+
+
+3          4
+
+
+03. Cho bản mã “KDIY” khóa k là ma trận cấp 2 sau. Giải mã bản mã với khóa k theo hệ mã Hill tìm bản rõ? Biết hàm mã hóa y = kx
+
+8         3
+
+
+
+5         3
+
+
+04. Cho bản mã “CNPZIEQN” khóa k. Giải mã với khóa k theo hệ mã Hill tìm bản rõ? Biết hàm mã y = kx
+
+6          5
+
+
+
+3          4
+
+
+05. Cho bản mã “COSLSLCZ” khóa k. Giải mã với khóa k theo hệ mã Hill tìm bản rõ? Biết hàm mã y = xk
+
+6          5
+
+
+
+3          4
+
+
+06. Cho bản rõ “RZCDPA” khóa k. Mã hóa bản rõ với khóa k theo hệ mã Hill tìm bản mã? Biết hàm mã y = xk
+
+9          7
+
+
+
+3          4
+
+
+07. Cho bản mã “RMKCEJVI” khóa k là ma trận cấp 2 sau. Giải mã bản mã với khóa k theo hệ mã Hill tìm bản rõ? Biết hàm mã hóa y = xk
+
+8         3
+
+
+
+5         3
+
+
+08. Cho bản mã “BKIVAIWO” khóa k là ma trận cấp 2 sau. Giải mã bản mã với khóa k theo hệ mã Hill tìm bản rõ? Biết hàm mã hóa y = xk
+
+7         2
+
+
+
+3         3
+
+
+09. Cho bản rõ“THEGIOIDODAY” khóa k là ma trận cấp 2 sau. Mã hóa bản rõ trên với khóa k theo hệ mã Hill tìm bản rõ? Biết hàm mã hóa y = kx
+
+7         2
+
+
+
+3         3
+
+
+10. Cho bản rõ “VINHHALONG” khóa k. Mã hóa bản rõ với khóa k theo hệ mã Hill tìm bản mã? Biết hàm mã y = kx
+
+9          7
+
+
+
+3          4
+
+

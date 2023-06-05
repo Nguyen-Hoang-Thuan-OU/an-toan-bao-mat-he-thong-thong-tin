@@ -1,0 +1,27 @@
+01. Cho k = (11,6), N = 26, giải mã văn bản, dùng thuật mã Affine với C = CETUTUFYPFGTIYI
+
+02. Cho k = (17,12), N = 26, mã hóa văn bản, dùng thuật mã Affine với P = CONGNGHETHONGTIN
+
+03. Cho k = (21,17), N = 26, mã hóa văn bản, dùng thuật mã Affine với P = TRUONGDAIHOCMO
+
+04. Cho k = (25,29), N = 26, giải mã văn bản, dùng thuật mã Affine với C = APWPDGJSFDQW
+
+05. Cho k = (31,12), N = 26, giải mã văn bản, dùng thuật mã Affine với C = WEYEBIPAGI
+
+06. Cho k = (31,24), N = 26, mã hóa văn bản, dùng thuật mã Affine với P = MANCHESTERUNITED
+
+07. Cho k = (31,24), N = 26, giải mã văn bản, dùng thuật mã Affine với C = DYOSFLGULMIHXI
+
+08. Cho k = (41,35), N = 26, giải mã văn bản, dùng thuật mã Affine với C = ERJSTLNZRCJCMTYJENJ
+
+09. Cho k = (53,21), N = 26, giải mã văn bản, dùng thuật mã Affine với C = ODIOPXFCJVCJXFDOCPVO
+
+10. Cho k = (53,47), N = 26, giải mã văn bản, dùng thuật mã Affine với C = OCPJIBICVPGTOJCJIB
+
+11. Hãy tìm số nghịch đảo modulo 26 của 11 bằng thuật toán Euclide mở rộng
+
+12. Hãy tìm số nghịch đảo modulo 26 của 17 bằng thuật toán Euclide mở rộng
+
+13. Hãy tìm số nghịch đảo modulo 26 của 19 bằng thuật toán Euclide mở rộng
+
+14. Hãy tìm số nghịch đảo modulo 26 của 25 bằng thuật toán Euclide mở rộng

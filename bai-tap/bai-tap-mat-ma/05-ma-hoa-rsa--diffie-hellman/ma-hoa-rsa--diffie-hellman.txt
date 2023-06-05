@@ -1,0 +1,53 @@
+01. Người A chọn các thông số p = 37, q = 3, e = 31. Hỏi khóa riêng của A là gì theo thuật mã RSA?
+
+02. Người A chọn các thông số p = 23, q = 17, e = 39. Hỏi cặp khóa công khai, khóa riêng của A theo thuật mã RSA là gì?
+
+03. Cho bản rõ x = 18, khóa công khai n = 221, e = 47. Mã hóa với khóa trên theo hệ mã RSA, các em hãy tìm bản mã?
+
+04. Người A chọn các thông số p = 31, q = 37, e = 397. Khi ta giải mã bản mã C = 509 theo thuật mã RSA ta sẽ thu được bản rõ nào?
+
+05. Theo thuật mã RSA. Giả sử người A chọn các thông số p = 23, q = 17, e = 13. Hỏi cặp khóa riêng, khóa công khai của A là gì? 
+
+06. Tìm bản rõ của câu 5 với trường hợp chúng ta có kết quả bản mã y = 75?
+
+07. Giả sử rằng cho 2 người A, B chọn 2 số nguyên tố chung là g = 10, p = 541, với a = 5, b = 7. Tính khóa công khai, khóa riêng của người gửi và người nhận A, B theo thuật mã Diffie-Hellman?
+
+08. Giả sử A, B chọn 2 số nguyên tố chung là g = 2, p = 997, a = 11, b = 13. Tính khóa công khai, khóa riêng của người gửi và người nhận A, B theo thuật mã Diffie-Hellman?
+
+09  Cho A, B chọn 2 số nguyên tố chung là g = 2, p = 23, a = 5, b = 13. Tính khóa công khai, khóa riêng của người gửi và người nhận A, B theo thuật mã Diffie-Hellman?
+
+10. Người A, B chọn 2 số nguyên tố chung là g = 2, p = 997, a = 47, b = 43. Tính khóa công khai, khóa riêng của người gửi và người nhận A, B theo thuật mã Diffie-Hellman?
+
+-----------------------------------------------------------------------------------
+
+Ví dụ 1:
+5^10 mod 221 = [(5^2mod 221) x (5^8 mod 221)]mod221
+
+[(5^2mod 221)^5]mod221 = 77
+
+Ví dụ 2:
+18^47 mod 221 = [(18^7 mod 221) x (18^8 mod 221) x (18^8 mod 221) x (18^8 mod 221)
+
+x (18^8 mod 221) x (18^8 mod 221)] mod 221
+
+= [(18^7 mod 221) x (18^8 mod 221)^5] mod 221
+
+18^7 mod 221 = 86
+
+18^8 mod 221 = 1
+
+18^47 mod 221 = (86 x 1^5) mod 221 = 86
+
+Ví dụ 3:
+509^253 mod 1147 = [(509^3 mod 1147) x (509^2 mod 1147) x (509^4 mod 1147)^62] mod 1147
+509^3 mod 1147 = 492
+509^2 mod 1147 = 1006
+509^4 mod 1147 = 382
+382^62 mod 1147 = [(382^2 mod 1147) x (382^5 mod 1147)^12] mod 1147
+382^2 mod 1147 = 255
+382^5 mod 1147 = 118
+118^12 mod 1147 = [(118^6 mod 1147)^2] mod 1147
+118^6 mod 1147 = 63
+118^12 mod 1147 = 63^2 mod 1147 = 528
+382^62 mod 1147 = (255 x 528) mod 1147 = 441
+509^253 mod 1147 = (492 x 1006 x 441) mod 1147 = 879
